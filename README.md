@@ -28,3 +28,4 @@ dunno. coz i wanted to test our hyperscript? this is 10 mins of work and belongs
 - [ ] more notes! more range!
 - [ ] change favicon based on last emoji sent. change title
 - [ ] mobile-friendly. hyperscript api has no support for touch events... hmm...
+- [ ] smaller sound files.. yikes
