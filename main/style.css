@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  width: 500px; /* Take the full viewport width */
+  height: 500px; /* Set a fixed height */
+  display: flex; /* Use flex to center .main horizontally and vertically */
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: grid;
+  gap: 20px; /* Gap between items */
+  grid-template-columns: repeat(auto-fill, 50px); /* Each column exactly 50px */
+  grid-auto-rows: 50px; /* Each row exactly 50px */
+  justify-content: start; /* Align grid items to the start of the main axis */
+  align-content: start; /* Align grid content to the start of the cross axis */
+  height: 100%; /* Full height of the parent */
+  width: 500px; /* Adjust the width as needed */
+}
+
+
+.fixed-size-span {
+  width: 50px; 
+  height: 50px;
+  border: 1px solid gray;
+  background-color: darkgray;
+  display: flex;
+  justify-content: center; /* Center text horizontally */
+  align-items: center;     /* Center text vertically */
+  font-size: 25px;
+  font-family: monospace;
+  margin: 0;
+}
+
