@@ -1,6 +1,8 @@
 # hauntedgarden
 This is so dumb. sorry lol
 
+https://jeremystokese2.github.io/hauntedgarden/
+
 # what is it?
 
 go to https://drawing.garden
